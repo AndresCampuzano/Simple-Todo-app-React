@@ -45,6 +45,13 @@ class App extends Component {
 		});
 	};
 
+	// When 'Enter' key is pressed.
+	handleKeyPress = event => {
+		if (event.key === 'Enter') {
+			this.addItem();
+		}
+	};
+
 	render() {
 		return (
 			<div className='App'>
@@ -56,6 +63,7 @@ class App extends Component {
 							placeholder='Type item here...'
 							value={this.state.newItem}
 							onChange={e => this.updateInput(e.target.value)}
+							onKeyPress={this.handleKeyPress}
 						/>
 						<button onClick={this.addItem}>Add</button>
 					</div>
