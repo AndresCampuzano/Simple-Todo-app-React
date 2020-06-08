@@ -48,4 +48,4 @@ npm i react react-dom --save
 ```bash
 npm start
 ```
-> Pull requests are welcome. They helps me to improve.
+> Pull requests are welcome. They help me to improve.
