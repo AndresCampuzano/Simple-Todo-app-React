@@ -37,10 +37,7 @@ deleteItem = id => {
 If you want to see the app, please follow this steps:
 
 ```bash
-git clone https://github.com/AndresCampuzano/Simple-Todo-app-React.git
-cd todo-app
-npm init
-npm i react react-dom --save
+git clone https://github.com/AndresCampuzano/Simple-Todo-app-React.git && cd todo-app && npm i && npm run start
 ```
 
 ## Start & watch
