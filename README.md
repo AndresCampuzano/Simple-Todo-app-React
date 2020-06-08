@@ -1,6 +1,6 @@
 # TODO app made in React
 
-I made this simple react app to practice this.state and how we can modify it using this.setState. 
+I made this simple react app to practice this.state and how we can modify it using this.setState.  [Live Demo](https://upbeat-goldstine-913e83.netlify.app/)
 
 ```js
 this.state = {
